@@ -31,6 +31,8 @@ cloudgo-io
 
 ​	点击可以查看文件内容：
 
+
+
 ​	![static2](./assets/images/static2.png)
 
 
@@ -39,7 +41,8 @@ cloudgo-io
    ![index](./assets/images/index.png)
 
 3. 简单js访问 :将js产生的内容显示到页面上
-   ![js](./assets/images/js.png)  
+
+   ![js](./assets/images/js.png)
 
 4. 登陆，然后产生一个表格(用户名和密码通过post的内容获取，随机数新生成一个)
 
