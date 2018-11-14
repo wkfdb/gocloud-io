@@ -1,4 +1,5 @@
 # cloudgo-io
+
 cloudgo-io
 
 ---
@@ -34,6 +35,10 @@ cloudgo-io
 
 
 ​	![static2](./assets/images/static2.png)
+
+​	使用curl 进行静态文件获取：
+
+![static3](C:\Go_Workspace\src\cloudgo-io-master\assets\images\static3.png)
 
 
 
