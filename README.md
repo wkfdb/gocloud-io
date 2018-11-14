@@ -38,6 +38,7 @@ cloudgo-io
 
 
 2. homepage主页内容
+
    ![index](./assets/images/index.png)
 
 3. 简单js访问 :将js产生的内容显示到页面上
