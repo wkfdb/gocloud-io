@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="static/css/index.css" />
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+
+<body>
+    <div>
+        <p class="greeting-id">The ID is {{.ID}}</p>
+        <p class="greeting-content">The content is {{.Content}}</p>
+        <p class="Randnum">Get a random number by js: </p>
+    </div>
+    <div>
+        <form action="/signin" method="post">
+            <p>用户名: <input type="text" name="username"></p>
+            <p>密码: <input type="password" name="password"></p>
+            <input type="submit" value="登录">
+        </form>
+    </div>
+</body>
+
+</html>
