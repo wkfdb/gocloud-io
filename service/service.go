@@ -7,6 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/unrolled/render"
 	"github.com/urfave/negroni"
+	"github.com/phyber/negroni-gzip/gzip"
 )
 
 // NewServer returns a negroni server that has already initialized
@@ -19,6 +20,7 @@ func NewServer() *negroni.Negroni {
 		IndentJSON: true,
 	})
 	n := negroni.Classic()
+	n.Use(gzip.Gzip(gzip.DefaultCompression))
 	mx := mux.NewRouter()
 
 	initRoutes(mx, formatter)

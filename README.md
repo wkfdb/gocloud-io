@@ -38,7 +38,7 @@ cloudgo-io
 
 ​	使用curl 进行静态文件获取：
 
-![static3](C:\Go_Workspace\src\cloudgo-io-master\assets\images\static3.png)
+![static3](.\assets\images\static3.png)
 
 
 
